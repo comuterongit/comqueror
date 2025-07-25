@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'determination';
+    src: url("assets/determination.otf");
+}
+
+@font-face {
+    font-family: 'Bookman Old Style';
+    src: url("assets/BOOKOS.TTF");
+}
+
+body{
+    color: white;
+    background-color: #6dc0fe;
+    font-family: 'Bookman Old Style', serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: normal;
+}
+
+h3{
+    font-size: 37px;
+    font-weight: normal;
+}
+
+p{
+    font-size: 25px;
+    max-width: 700px;
+    margin: auto;
+}
+
+input{
+    border: solid 2px black;
+}
+
+a{
+    color: grey;
+    font-size: 25px;
+    margin: 0 20px 0 20px;
+}
+
+a:hover{
+    color: #534e3a;
+}
+
+.konqueror{
+    height: 100%;
+    width: auto;
+}
+
+.win95-badge{
+    border-radius: 10px;
+    width: 65px;
+    height: auto;
+}
+
+.small-empty-space{
+    min-height: 5vh;
+}
+
+.medium-empty-space{
+    min-height: 15vh;
+}
+
+.nomargin{
+    margin: 0;
+}
